@@ -17,7 +17,7 @@ UTILISATION :
    est téléversé et fonctionne
 2. Modifiez SERIAL_PORT avec le port COM de votre Arduino (ex: 'COM3', 'COM7')
 3. Exécutez le script : python serial_data_to_csv.py
-4. Effectuez vos vibrations  - le script capturera automatiquement,  pause de 5 secondes entre chaque vibration
+4. Effectuez vos vibrations  - le script capturera automatiquement,  pause de 3 secondes entre chaque vibration
 5. Appuyez sur Ctrl+C pour arrêter la capture
 6. Renommez le fichier output.csv selon la vibration (<vibration_name>.csv) et placez-le dans
    le dossier PARTIE_1_ClassificationVibrations/Training/dataset pour l'entraînement
@@ -91,7 +91,7 @@ with serial.Serial(SERIAL_PORT, BAUD_RATE, timeout=1) as ser:
         samples_collected = 0
         t=time.time()
         while time.time()-t<3:
-                print(f"  Starting in {5 - int(time.time()-t)} seconds...", end='\r')
+                print(f"  Starting in {3 - int(time.time()-t)} seconds...", end='\r')
                 time.sleep(1)
 
         try:

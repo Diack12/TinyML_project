@@ -41,7 +41,7 @@
 // Nombre d'échantillons à capturer par vibration
 // 50 échantillons = environ 1 seconde à 50 Hz (fréquence d'échantillonnage)
 // Cette valeur DOIT correspondre à SAMPLES_PER_Vibration dans le notebook Python
-const int numSamples = 50;
+const int numSamples = 100;
 
 // ============================================================================
 // VARIABLES GLOBALES
