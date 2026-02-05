@@ -1,5 +1,7 @@
 # Dashboard Node-RED – Configuration et Paramétrage
 
+![Dashboard Image](images/dashboard.png)
+
 Ce document décrit la configuration du **Dashboard Node-RED** utilisé pour afficher en temps réel :
 - les compteurs de détection (Led, Resistor, PushButton, éventuellement Background),
 - la classe détectée (“winner”) et sa probabilité (“confidence”),
