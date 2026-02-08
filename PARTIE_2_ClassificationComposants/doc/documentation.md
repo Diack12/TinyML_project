@@ -83,7 +83,7 @@ Vous pouvez directement utiliser ce fichier pour installer la librairie.
 1. Ouvrir **Arduino IDE**
 2. Aller à **Sketch** → **Include Library** → **Add .ZIP Library...**
 3. Sélectionner le fichier `.zip` :
-   - Si vous utilisez le fichier fourni : naviguez vers `arduino_camera_classification/[librairie].zip`
+- Si vous utilisez le fichier fourni : naviguez vers `ArduinoCamera/[librairie].zip`
    - Si vous avez téléchargé manuellement : sélectionnez le fichier téléchargé
 4. Cliquer **Open** → L'IDE ajoute automatiquement la librairie
 5. Attendre le message de confirmation "Library installed"

@@ -56,6 +56,7 @@ PARTIE_2_ClassificationComposants/
 ├── 2-ArduinoCamera/            # Code Arduino avec caméra
 │   └── arduino_camera_classification/
 │       └── arduino_camera_classification.ino
+|   └──  ei-composants-classification-arduino-1.0.6.zip   #Librairie Edge Impulse
 ├── 3-NodeRED/                  # Dashboard de visualisation
 │   ├── images/                 # Captures d'ecran dashboard
 │   ├── dashboard.md            # Configuration du dashboard
